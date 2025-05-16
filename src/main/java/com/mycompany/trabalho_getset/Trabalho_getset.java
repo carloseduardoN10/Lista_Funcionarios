@@ -16,47 +16,40 @@ class funcionario {
     private String cargo;
     private double salario;
     private boolean ativo;
-    
-    public funcionario(String nome, String cargo, double salario){
-        this.nome = nome;
-        this.cargo = cargo;
-        this.salario = salario;
-        this.ativo = true;        
-    }
 
-    public String getnome(){
+    public String getNome(){
         return nome;
     }
     
-    public void setnome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
     
-    public String getcargo(){
+    public String getCargo(){
         return cargo;
     }
     
-    public void setcargo(String cargo){
+    public void setCargo(String cargo){
         this.cargo = cargo;
     }
 
-    public Double getsalario(){
+    public Double getSalario(){
         return salario;
     }
     
-    public void setsalario(double salario){
+    public void setSalario(double salario){
         this.salario = salario;
     }
     
-    public boolean isativo(){
+    public boolean isAtivo(){
         return ativo;
     }
     
-    public void setativo(boolean ativo){
+    public void setAtivo(boolean ativo){
         this.ativo = ativo;
     }
     
-    public void exibirdados(){
+    public void exibirDados(){
         System.out.println("------------------------------");
         System.out.println("Nome: "+nome);
         System.out.println("Cargo: "+cargo);
@@ -76,7 +69,7 @@ public class Trabalho_getset {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        
+             
         String[] listaFuncionarios = new String[3];
         
         System.out.println("Hello World!");
