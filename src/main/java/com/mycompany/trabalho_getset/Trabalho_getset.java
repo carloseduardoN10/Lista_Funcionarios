@@ -71,5 +71,11 @@ public class Trabalho_getset {
         Scanner ler = new Scanner(System.in);
              
         String[] listaFuncionarios = new String[3];
+        
+        
+        
+        
+        
+        System.out.print(ler);
     }
 }
