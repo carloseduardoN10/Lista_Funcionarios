@@ -57,7 +57,7 @@ class funcionario {
         System.out.println("Status: "+ativo);
     }
     
-    public void aumentarsalario(double percentual){
+    public void aumentarSalario(double percentual){
         salario+=salario * (percentual/100);
     }
 }
@@ -71,7 +71,5 @@ public class Trabalho_getset {
         Scanner ler = new Scanner(System.in);
              
         String[] listaFuncionarios = new String[3];
-        
-        System.out.println("Hello World!");
     }
 }
